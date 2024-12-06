@@ -4,3 +4,5 @@ scipy~=1.14.1 # 科学计算，进行数值计算
 matplotlib~=3.9.3 # 画图
 yfinance~=0.2.50 # 获取股票数据
 python-dateutil~=2.9.0.post0 # 方便日期计算
+alpha_vantage~=3.0.0
+python-dotenv~=1.0.1
