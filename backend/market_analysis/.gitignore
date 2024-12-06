@@ -1,5 +1,5 @@
 # 环境变量
-../.env
+backend/market_analysis/.env
 
 # 缓存目录
 data_cache/
