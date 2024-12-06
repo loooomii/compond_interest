@@ -1,5 +1,11 @@
 # 环境变量
-backend/market_analysis/.env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
 
 # 缓存目录
 data_cache/
