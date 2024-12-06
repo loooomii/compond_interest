@@ -1,5 +1,5 @@
 # 环境变量
-.env
+../.env
 
 # 缓存目录
 data_cache/
