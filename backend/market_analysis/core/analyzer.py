@@ -86,6 +86,7 @@ class MarketIndexAnalyzer:
             try:
                 self._wait_for_rate_limit()
                 ts = TimeSeries(key=self.api_key, output_format='pandas')
+                # TODO: 从API获取数据,这里的问题可能在于symbol名称不对。需要调查一下这个API的使用方法
                 df, _ = ts.get_daily_adjusted(symbol=symbol, outputsize='full')
 
                 # 保存到缓存
