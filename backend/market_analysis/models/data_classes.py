@@ -1,5 +1,6 @@
 from ..utils.imports import *
 
+
 @dataclass
 class IndexReturn:
     """数据类，用于存储单个指数的分析结果"""
@@ -15,6 +16,7 @@ class IndexReturn:
     analysis_period: int
     data_start_date: datetime
     data_end_date: datetime
+
 
 @dataclass
 class MarketAnalysis:
